@@ -7,7 +7,7 @@ const Card = ({ id, name, icon, background }) => {
   }
   return(
     <div className="Card" style={divStyle}>
-      <img alt='icon' src={`https://andiscle.sirv.com/Portfolio/${id}/${icon}?w=150&h=150`} width="150" height="150" />
+      <img alt='icon' src={`https://andiscle.sirv.com/Portfolio/${id}/${icon}?w=200&h=200`} width="200" height="200" />
       {/* <p>{name}</p> */}
     </div>
   );
