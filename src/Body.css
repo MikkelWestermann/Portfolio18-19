@@ -29,3 +29,34 @@
   color: #417491;
   border-bottom: 3px solid #417491;
 }
+
+.Section li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 75px;
+}
+
+.social {
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  padding: 0;
+}
+
+#facebook:hover {
+  color: #4A67AD;
+}
+
+#twitter:hover {
+  color: #4CA0EB;
+}
+
+#github:hover {
+  color: #25292E;
+}
+
+#linkedin:hover {
+  color: #3277B0;
+}
