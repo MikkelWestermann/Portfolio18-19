@@ -7,10 +7,13 @@
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 1px;
-  width: 100%;
+  border-radius: 15px;
+  width: 75vw;
   height: 100%;
   padding-top: 25px;
-  box-shadow: 0 -4px 10px #1c4156;
+  margin-bottom: 50px;
+  box-shadow: 0 0 10px #555;
+  color: #454545;
 }
 
 .Section {
@@ -18,7 +21,6 @@
   flex-direction: column;
   align-items: center;
   width: 50vw;
-  color: #454545;
   text-align: center;
 }
 
@@ -26,8 +28,7 @@
   font-size: 3.5em;
   padding-left: 25px;
   padding-right: 25px;
-  color: #417491;
-  border-bottom: 3px solid #417491;
+  border-bottom: 3px solid #454545;
 }
 
 .Section li {

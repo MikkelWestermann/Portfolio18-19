@@ -5,9 +5,25 @@
   justify-content: center;
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 75vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.forground img {
+  margin-bottom: 100px;
+}
+
+.download a {
+  margin: 50px;
+}
+
+.light {
+  color: #bbb;
+}
+
+.dark {
+  color: #454545;
 }

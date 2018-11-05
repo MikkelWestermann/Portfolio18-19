@@ -14,8 +14,9 @@ class Body extends Component {
       <div id="Body">
         <div className="Section">
           <h1>About</h1>
-          <p>I'm an aspiring software engineer from Denmark, which means I'm fluent in english and danish. I'm self-taught, but I am going to attend university starting the autumn of 2019. I have worked primarily with C# and Unity3D, where I have published multiple applications on both Apple App Store and Google Play (listed below). The fact that I have worked with C# have given me a great basis for working in Java, with which I too have "dabbled".</p>
-          <p>Furthermore I have a bit of experience with the web technologies: HTML, CSS and JavaScript. And with that some frameworks, such as React and Bootstrap. Beside that I also have an understanding of databases, primarily SQL databases and more specifically MySQL.</p>
+          <p>I'm an aspiring software engineer from Denmark, which means I'm fluent in english and danish. I'm self-taught, but I am going to attend university starting the autumn of 2019. I have worked primarily with C# and Unity3D, where I have published multiple applications on both Apple App Store and Google Play (listed below).</p>
+          <p>Although my experience primarily lies in in the Unity environment, I also have a strong interest in the web technologies; HTML, CSS and JavaScript. And with that, awesome frameworks like React.</p>
+          <p>I have also tried working a bit with databases, mainly MySQL. And I've played around with Java, which is quite a lot like C#...</p>
         </div>
         <div className="Section">
           <h1>Applications</h1>

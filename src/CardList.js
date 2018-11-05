@@ -13,6 +13,7 @@ const CardList = ({ data }) => {
             name={data[i].name}
             icon={data[i].icon}
             background={data[i].background}
+            shade={data[i].shade}
           />
         );
       })
