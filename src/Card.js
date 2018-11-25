@@ -12,8 +12,8 @@ const Card = ({ id, name, icon, background, shade }) => {
         <div className="forground">
           <img alt='icon' src={`https://andiscle.sirv.com/Portfolio/${id}/${icon}?w=200&h=200`} width="200" height="200" />
           <div className="download">
-            <a href="./"><FontAwesomeIcon size="4x" icon={['fab', 'google-play']} className={shade}/></a>
-            <a href="./"><FontAwesomeIcon size="4x" icon={['fab', 'app-store']} className={shade}/></a>
+            <a href="./"><FontAwesomeIcon size="4x" icon={['fab', 'google-play']}/></a>
+            <a href="./"><FontAwesomeIcon size="4x" icon={['fab', 'app-store']}/></a>
           </div>
         </div>
       </div>
