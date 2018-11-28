@@ -13,12 +13,27 @@
   overflow: hidden;
 }
 
-.forground img {
+.icon {
   margin: 50px;
   box-shadow: 0 0 10px #111;
   border-radius: 20%;
 }
 
+.download {
+  display: flex;
+  flex-direction: column;
+}
+
 .download a {
-  margin: 50px;
+  margin: 10px;
+}
+
+.storeLinkApple {
+  height: 75px;
+  width: auto;
+}
+
+.storeLinkGoogle {
+  height: 110px;
+  width: auto;
 }
