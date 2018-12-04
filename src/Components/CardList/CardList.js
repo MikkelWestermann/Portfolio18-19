@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+import Card from '../Card/Card';
 
 const CardList = ({ data }) => {
   return (
@@ -13,7 +13,8 @@ const CardList = ({ data }) => {
             name={data[i].name}
             icon={data[i].icon}
             background={data[i].background}
-            shade={data[i].shade}
+            appURL={data[i].appURL}
+            playURL={data[i].playURL}
           />
         );
       })

@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <div id="header">
-        <img src="https://andiscle.sirv.com/Portfolio/Logo/Logo_SlideToSide.png?w=250" width="250" height="173" alt="logo" />
+        <img src="https://andiscle.sirv.com/Portfolio/Logo/Logo_SlideToSide.png?w=175" width="175" height="121" alt="logo" />
       </div>
     );
   }

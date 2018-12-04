@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header';
-import Body from './Body';
+import Header from './Components/Header/Header';
+import Body from './Components/Body/Body';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Card.css';
 
-import appstore from './appstore.svg';
-import googleplay from './googleplay.png';
+import appstore from '../../appstore.svg';
+import googleplay from '../../googleplay.png';
 
 const Card = ({ id, name, icon, background, appURL, playURL }) => {
   var divStyle = {
-    backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1500&h=1500)`
+    backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1200&h=1200)`
   }
   return(
       <div className="Card" style={divStyle}>

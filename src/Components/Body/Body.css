@@ -31,12 +31,19 @@
   border-bottom: 3px solid #454545;
 }
 
-.Section li {
+.Section h2 {
+  font-size: 2em;
+  border-bottom: 3px solid #454545;
+}
+
+.Section ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   list-style: none;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
+  margin-top: 0;
+  padding: 0;
 }
 
 .social {
@@ -60,4 +67,17 @@
 
 #linkedin:hover {
   color: #3277B0;
+}
+
+#emailContact {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+#emailContact:hover {
+  text-decoration: underline;
+  color: #454545;
 }
