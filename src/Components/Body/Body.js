@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Body.css';
 import { data } from '../../ApplictionData';
+import { courseData } from '../SmallCard/CourseWebsiteData';
 import CardList from '../CardList/CardList';
+import CourseWebsiteList from '../CardList/CourseWebsiteList';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -23,6 +25,9 @@ class Body extends Component {
           <h1>Websites</h1>
           <h2>Courses</h2>
           <p>Websites I have worked on as part of online courses</p>
+          <div className='smallCardContainer'>
+            <CourseWebsiteList courseData={ courseData }/>
+          </div>
         </div>
         <div className="Section">
           <h1>Applications</h1>
@@ -34,10 +39,10 @@ class Body extends Component {
           <a href='mailto:mikkel.westermann.98@gmail.com' id='emailContact'>mikkel.westermann.98@gmail.com</a>
           <p>or find me on these social media:</p>
           <ul>
-            <li className="social" id="facebook"><FontAwesomeIcon size="4x" icon={['fab', 'facebook-square']}/></li>
-            <li className="social" id="linkedin"><FontAwesomeIcon size="4x" icon={['fab', 'linkedin']}/></li>
-            <li className="social" id="github"><FontAwesomeIcon size="4x" icon={['fab', 'github-square']}/></li>
-            <li className="social" id="twitter"><FontAwesomeIcon size="4x" icon={['fab', 'twitter-square']}/></li>
+            <li className="social"><a id="facebook" href='https://www.facebook.com/mikkel.westermann.1'><FontAwesomeIcon size="4x" icon={['fab', 'facebook-square']}/></a></li>
+            <li className="social"><a id="linkedin" href='https://www.linkedin.com/in/mikkel-westermann-053198164/'><FontAwesomeIcon size="4x" icon={['fab', 'linkedin']}/></a></li>
+            <li className="social"><a id="github" href='https://github.com/MikkelWestermann'><FontAwesomeIcon size="4x" icon={['fab', 'github-square']}/></a></li>
+            <li className="social"><a id="twitter" href='https://twitter.com/MTWestermann?lang=en'><FontAwesomeIcon size="4x" icon={['fab', 'twitter-square']}/></a></li>
           </ul>
         </div>
       </div>
