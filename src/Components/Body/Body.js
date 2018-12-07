@@ -25,9 +25,7 @@ class Body extends Component {
           <h1>Websites</h1>
           <h2>Courses</h2>
           <p>Websites I have worked on as part of online courses</p>
-          <div className='smallCardContainer'>
-            <CourseWebsiteList courseData={ courseData }/>
-          </div>
+          <CourseWebsiteList courseData={ courseData }/>
         </div>
         <div className="Section">
           <h1>Applications</h1>

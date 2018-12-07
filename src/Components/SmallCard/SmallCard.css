@@ -28,3 +28,18 @@
   color: #454545;
   text-decoration: underline;
 }
+
+.cardDescription {
+  margin: 8px;
+}
+
+.cardDescription p {
+  margin: 5px;
+}
+
+.SmallCard {
+  transition: all .2s ease-in-out;
+}
+.SmallCard:hover {
+  transform: scale(1.1);
+}

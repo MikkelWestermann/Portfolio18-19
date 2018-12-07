@@ -2,13 +2,13 @@ export const courseData = [
   {
     title: 'SmartBrain',
     from: 'Andrei Neagoie on Udemy',
-    siteURL: '',
+    siteURL: 'https://mikkel-smart-brain.herokuapp.com/',
     category: 'Course'
   },
   {
     title: 'RoboFriends',
     from: 'Andrei Neagoie on Udemy',
-    siteURL: '',
+    siteURL: 'https://mikkelwestermann.github.io/Robofriends/',
     category: 'Course'
   },
   {
