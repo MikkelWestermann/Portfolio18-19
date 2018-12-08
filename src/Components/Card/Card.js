@@ -6,7 +6,7 @@ import googleplay from '../../googleplay.png';
 
 const Card = ({ id, name, icon, background, appURL, playURL }) => {
   var divStyle = {
-    backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1200&h=1200)`
+    backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1000&h=1000)`
   }
   return(
       <div className="Card" style={divStyle}>

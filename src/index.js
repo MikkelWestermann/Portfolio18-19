@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Components/Header/Header';
+import Particles from 'react-particles-js';
 import Body from './Components/Body/Body';
 import * as serviceWorker from './serviceWorker';
 
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 100,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    }
+  }
+}
+
+
 ReactDOM.render(
       <div className="App">
-        <Header />
+        <Particles className='particles'
+          params={particlesOptions}
+        />
         <Body />
       </div>
   , document.getElementById('root'));
