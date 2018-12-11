@@ -1,20 +1,26 @@
 export const courseData = [
   {
     title: 'SmartBrain',
-    from: 'Andrei Neagoie on Udemy',
+    description: 'Andrei Neagoie on Udemy',
+    tech: 'React, NodeJS',
     siteURL: 'https://mikkel-smart-brain.herokuapp.com/',
-    category: 'Course'
+    category: 'Course',
+    hasStar: true
   },
   {
     title: 'RoboFriends',
-    from: 'Andrei Neagoie on Udemy',
+    description: 'Andrei Neagoie on Udemy',
+    tech: 'React',
     siteURL: 'https://mikkelwestermann.github.io/Robofriends/',
-    category: 'Course'
+    category: 'Course',
+    hasStar: false
   },
   {
     title: 'YelpCamp',
-    from: 'Colt Steele on Udemy',
+    description: 'Colt Steele on Udemy',
+    tech: 'NodeJS',
     siteURL: 'https://infinite-spire-88133.herokuapp.com',
-    category: 'Course'
+    category: 'Course',
+    hasStar: true
   }
 ]
