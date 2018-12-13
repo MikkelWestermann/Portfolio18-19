@@ -21,13 +21,12 @@ class Body extends Component {
           <div className="Section">
             <h1>About</h1>
             <br />
-            <p>I'm an aspiring software engineer from Denmark. I'm self-taught, but I am going to attend university starting the autumn of 2019. I have worked primarily with C# and Unity3D, where I have published multiple applications on both Apple App Store and Google Play (listed below).</p>
+            <p>I'm an aspiring software engineer from Denmark. I'm self-taught, but I am going to attend university starting the autumn of 2019. I have worked primarily with C# and Unity3D, where I have published multiple applications on both Apple App Store and Google Play (listed below). Through this I also got quite comfortable with making small icons and other graphical assets in Adobe Photoshop.</p>
             <p>Although my experience primarily lies in in the Unity environment, I also have a strong interest in the web technologies, both front- and back-end. I have worked primarily with React as a front-end framework, and with NodeJS and ExpressJS on the backend and SQL databases (MySQL and PostgreSQL)</p>
-            <p>I also have a bit of experience with Photoshop, given that I have made all of the "art" for the applications listed below</p>
           </div>
           <div className="Section">
             <h1>Websites</h1>
-            <p>Projects with the <span className='herokuStar'>*</span> are hosted on Heroku and will be slow at first, because they're hosted on the free tier</p>
+            <p>Projects with the <span id='disclaimer' className='herokuStar'>*</span> are hosted on Herokus free tier and will be slow at first</p>
             <h2>Courses</h2>
             <p>Websites I have worked on as part of online courses</p>
             <SmallCardList data={ courseData } strongText='Course From:'/>

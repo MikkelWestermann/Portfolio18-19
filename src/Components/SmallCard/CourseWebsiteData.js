@@ -10,7 +10,7 @@ export const courseData = [
   {
     title: 'RoboFriends',
     description: 'Andrei Neagoie on Udemy',
-    tech: 'React',
+    tech: 'React, Redux',
     siteURL: 'https://mikkelwestermann.github.io/Robofriends/',
     category: 'Course',
     hasStar: false

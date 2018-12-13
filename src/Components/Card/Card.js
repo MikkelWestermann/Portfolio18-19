@@ -5,8 +5,18 @@ import appstore from '../../appstore.svg';
 import googleplay from '../../googleplay.png';
 
 const Card = ({ id, name, icon, background, appURL, playURL }) => {
-  var divStyle = {
-    backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1000&h=1000)`
+  function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+  };
+  if (isMobileDevice()) {
+    var divStyle = {
+      backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1000&h=1000)`
+    }
+  } else {
+    var divStyle = {
+      backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1000&h=1000)`,
+      backgroundAttachment: 'fixed'
+    }
   }
   return(
       <div className="Card" style={divStyle}>
