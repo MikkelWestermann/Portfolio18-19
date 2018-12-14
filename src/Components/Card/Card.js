@@ -8,12 +8,13 @@ const Card = ({ id, name, icon, background, appURL, playURL }) => {
   function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
   };
+  let divStyle = {};
   if (isMobileDevice()) {
-    var divStyle = {
+    divStyle = {
       backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1000&h=1000)`
     }
   } else {
-    var divStyle = {
+    divStyle = {
       backgroundImage: `url(https://andiscle.sirv.com/Portfolio/${id}/${background}?w=1000&h=1000)`,
       backgroundAttachment: 'fixed'
     }
