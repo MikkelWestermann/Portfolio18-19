@@ -21,8 +21,8 @@ class Body extends Component {
           <div className="Section">
             <h1>About</h1>
             <br />
-            <p>I'm an aspiring software engineer from Denmark. I'm self-taught, but I am going to attend university starting the autumn of 2019. I have worked primarily with C# and Unity3D, where I have published multiple applications on both Apple App Store and Google Play (listed below). Through this I also got quite comfortable with making small icons and other graphical assets in Adobe Photoshop.</p>
-            <p>Although my experience primarily lies in in the Unity environment, I also have a strong interest in the web technologies, both front- and back-end. I have worked primarily with React as a front-end framework, and with Node.js on the backend and SQL databases (MySQL and PostgreSQL)</p>
+            <p>I'm an aspiring software engineer from Denmark. I'm self-taught, but I am going to attend university starting the autumn of 2019. I have worked primarily with C# and Unity3D, where I have published multiple applications on both Apple App Store and Google Play (listed below). Through this, I also got quite comfortable with making small icons and other graphical assets in Adobe Photoshop.</p>
+            <p>Although my experience primarily lies in the Unity environment, I also have a strong interest in the web technologies, both front- and back-end. I have worked primarily with React as a front-end framework, and with Node.js on the backend and SQL databases (MySQL and PostgreSQL)</p>
           </div>
           <div className="Section">
             <h1>Websites</h1>
