@@ -22,5 +22,13 @@ export const personalProjects = [
     siteURL: 'https://mikkelwestermann.github.io/Converter/',
     category: 'Personal',
     hasStar: false
+  },
+  {
+    title: 'Revision',
+    description: 'COMING SOON',
+    tech: 'React, Redux, Node.js, PostgreSQL',
+    siteURL: 'https://mikkelwestermann.github.io/Revision/',
+    category: 'Personal',
+    hasStar: true
   }
 ]
